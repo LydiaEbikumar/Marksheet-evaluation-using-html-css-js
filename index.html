@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+  <div class="section">
+    <div class="container">
+   <div class="sno">
+    <p class="sno" style="font-weight: bold;">Sr.No.<span style="color: red;font-weight: bold;">0000000</span></p>
+ </div>
+<img class="hicet" src="assests/hicet.png">
+<img class="qr" src="assests/qr.png" style="width: 130px;">
+   <div class="logo">
+     <img src="assests/logo.png">
+   </div>
+  <h1 class="text1">Annual Statement of Marks</h1>  
+<table class="details">
+<tr>
+ <th colspan="2" class="tex" style="color:rgb(144, 68, 40);">Name of the candidate<br><span class="name" style="color:black;">Lydia E</span></th>
+ <th class="tex"style="color:rgb(144, 68, 40);">Course name with Code<br><span class="name"style="color:black;">ELECTRONICS AND COMMUNICATION - 21EC4567</span></th>
+</tr>
+<tr>
+ <th class="tex"style="color:rgb(144, 68, 40);">Reg.No<br><span class="name"style="color:black;">720721106060</span></th>
+ <th class="tex"style="color:rgb(144, 68, 40);">Enrollment No.<br><span class="name"style="color:black;">SEDRF34567</span></th>
+ <th class="tex"style="color:rgb(144, 68, 40);">Authorised Training Centre Name with Code<br><span class="name"style="color:black;">HICET - EDR3456</span></th>
+</tr>
+<table class="Subject">
+  <tr>
+      <th rowspan="2"style="color:rgb(144, 68, 40);">Subject Code</th>
+      <th rowspan="2"style="color:rgb(144, 68, 40);">Subject Name</th>
+      <th rowspan="2"style="color:rgb(144, 68, 40);">Max.Marks</th>
+      <th colspan="3"style="color:rgb(144, 68, 40);">Marks Obtained</th>
+      <th rowspan="2"style="color:rgb(144, 68, 40);">Total in Words</th>
+      <tr>
+      <th  id="theory"style="color:rgb(144, 68, 40);">Theory</th>
+      <th  id="practical"style="color:rgb(144, 68, 40);">Practical</th>
+      <th  id="total"style="color:rgb(144, 68, 40);">Total</th>
+      </tr>
+  </tr>
+  <div class="sub">
+  <tr>
+      <td scope="row">21EC7201</td>
+      <td>Digital Image Processing</td>
+      <td>100</td>
+      <td><input style="width: 30px;" name="theory"></td>
+      <td><input style="width: 30px;" name="practical"></td>
+      <td><input id="total" style="width: 30px;"></td>
+      <td id="words"></td>
+  </tr>
+  <tr>
+      <td scope="row">21EC7202</td>
+      <td>Optical and Microwave Engineering</td>
+      <td>100</td>
+      <td><input style="width: 30px;"name="theory"></td>
+      <td><input style="width: 30px;" name="practical"></td>
+      <td ><input id="total" style="width: 30px;"></td>
+      <td id="words"></td>
+  </tr>
+  <tr>
+    <td scope="row">21EC7302</td>
+    <td>ASIC Design</td>
+    <td>100</td>
+    <td><input style="width: 30px;"name="theory"></td>
+    <td><input style="width: 30px;" name="practical"></td>
+    <td><input id="total" style="width: 30px;"></td>
+    <td id="words"></td>
+</tr>
+<tr>
+    <td scope="row">21EC7205</td>
+    <td>Wearable Devices</td>
+    <td>100</td>
+    <td><input style="width: 30px;"name="theory"></td>
+    <td><input style="width: 30px;" name="practical"></td>
+    <td><input id="total" style="width: 30px;"></td>
+    <td id="words"></td>
+</tr>
+<tr>
+    <td scope="row">21EC7206</td>
+    <td>IOT Processors</td>
+    <td>100</td>
+    <td><input style="width: 30px;"name="theory"></td>
+    <td><input style="width: 30px;" name="practical"></td>
+    <td><input id="total" style="width: 30px;"></td>
+    <td id="words"></td>
+</tr>
+<tr>
+  <td scope="row">21EC7201</td>
+  <td>Digital Image Processing</td>
+  <td>100</td>
+  <td><input style="width: 30px;"name="theory"></td>
+  <td><input style="width: 30px;" name="practical"></td>
+  <td><input id="total" style="width: 30px;"></td>
+  <td id="words"></td>
+</tr>
+</div>
+<tr>
+<th colspan="8"style="color:rgb(144, 68, 40);">Grand Total : <span><input id="sum"></span></th>
+
+</tr>
+<tr>
+  <th style="color:rgb(144, 68, 40);">Month and Year of Examination</th>
+  <th style="color:rgb(144, 68, 40);">No.of Subject Offered</th>
+  <th colspan="2"style="color:rgb(144, 68, 40);">Result</th>
+  <th colspan="2"style="color:rgb(144, 68, 40);">Percentage</th>
+  <th colspan="2"style="color:rgb(144, 68, 40);">Grade</th>
+</tr>
+<tr>
+  <td>May 2023</td>
+  <td>T4+P2=6</td>
+  <td colspan="2"><input id="result"></td>
+  <td  colspan="2"><input id="percentage"></td>
+  <td><input id="grade"></td>
+</tr>
+</table>
+<p class="res" style="color:rgb(144, 68, 40);">Date: <input id="datePicker" type="date"></p>
+<div class="sign">
+           <p>(Signature of Deputy Controller of Examination)</p>
+           <p class="sign1" style="color:rgb(144, 68, 40);">Deputy Controller Of Examination</p>
+         </div>
+         </table>
+         <p class="foot">Subject Marked * Indicated Exception </p>
+        </div>
+      </div>
+          <script>
+        
+const theoryInputs = document.querySelectorAll('input[name="theory"]');
+const practicalInputs = document.querySelectorAll('input[name="practical"]');
+const totalInputs = document.querySelectorAll('input[id="total"]');
+const wordsInputs = document.querySelectorAll('td[id="words"]');
+const grandTotalInput = document.querySelector('input[id="sum"]');
+const percentageInput = document.querySelector('input[id="percentage"]');
+const gradeInput = document.querySelector('input[id="grade"]');
+const resultInput = document.querySelector('input[id="result"]');
+
+
+function calculateTotalMarks(theory, practical) {
+  return parseInt(theory) + parseInt(practical);
+}
+
+
+function calculateGrandTotal() {
+  let grandTotal = 0;
+  totalInputs.forEach((input) => {
+    grandTotal += parseInt(input.value);
+  });
+  return grandTotal;
+}
+
+function calculatePercentage(grandTotal) {
+  return (grandTotal / 600) * 100;
+}
+
+
+function calculateGrade(percentage) {
+  if (percentage >= 60) {
+    return 'Pass';
+  } else {
+    return 'Fail';
+  }
+}
+
+
+function numberToWords(num) {
+  const ones = ['', 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine'];
+  const teens = ['Ten', 'Eleven', 'Twelve', 'Thirteen', 'Fourteen', 'Fifteen', 'Sixteen', 'Seventeen', 'Eighteen', 'Nineteen'];
+  const tens = ['', '', 'Twenty', 'Thirty', 'Forty', 'Fifty', 'Sixty', 'Seventy', 'Eighty', 'Ninety'];
+  const thousands = ['', 'Thousand', 'Million', 'Billion'];
+
+  let words = '';
+  let i = 0;
+  while (num > 0) {
+    if (num % 1000 != 0) {
+      words = helper(num % 1000) + (i > 0 ? ' ' + thousands[i] : '') + (words != '' ? ' ' + words : '');
+    }
+    num = Math.floor(num / 1000);
+    i++;
+  }
+  return words;
+
+  function helper(num) {
+    let words = '';
+    if (num >= 100) {
+      words += ones[Math.floor(num / 100)] + ' Hundred';
+      num %= 100;
+    }
+    if (num >= 20) {
+      words += (words != '' ? ' ' : '') + tens[Math.floor(num / 10)];
+      num %= 10;
+    }
+    if (num >= 10 && num < 20) {
+      words += (words != '' ? ' ' : '') + teens[num - 10];
+      num = 0;
+    }
+    if (num > 0) {
+      words += (words != '' ? ' ' : '') + ones[num];
+    }
+    return words;
+  }
+}
+
+theoryInputs.forEach((input, index) => {
+  input.addEventListener('input', () => {
+    const practicalInput = practicalInputs[index];
+    const totalInput = totalInputs[index];
+    const wordsInput = wordsInputs[index];
+    const theoryMark = input.value;
+    const practicalMark = practicalInput.value;
+    const totalMark = calculateTotalMarks(theoryMark, practicalMark);
+    totalInput.value = totalMark;
+    wordsInput.textContent = numberToWords(totalMark);
+  });
+});
+
+practicalInputs.forEach((input, index) => {
+  input.addEventListener('input', () => {
+    const theoryInput = theoryInputs[index];
+    const totalInput = totalInputs[index];
+    const wordsInput = wordsInputs[index];
+    const theoryMark = theoryInput.value;
+    const practicalMark = input.value;
+    const totalMark = calculateTotalMarks(theoryMark, practicalMark);
+    totalInput.value = totalMark;
+    wordsInput.textContent = numberToWords(totalMark);
+  });
+});
+
+document.addEventListener('input', () => {
+  const grandTotal = calculateGrandTotal();
+  grandTotalInput.value = grandTotal;
+  const percentage = calculatePercentage(grandTotal);
+  percentageInput.value = percentage.toFixed(2);
+  const grade = calculateGrade(percentage);
+  resultInput.value = grade;
+  gradeInput.value = grade;
+});
+         </script>
+
+      
+</body>
+</html>
